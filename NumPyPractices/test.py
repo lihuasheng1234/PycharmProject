@@ -8,7 +8,7 @@ n1 = numpy.arange(1,17).reshape(8,2)
 # print(numpy.arange(0,10).reshape(2,5))
 
 # print(numpy.random.rand(9))
-# print(numpy.random.randn(2,3))
+print(numpy.random.randn())
 # print(numpy.random.mtrand.rand(9))
 
 # print(numpy.empty(9))
@@ -36,9 +36,14 @@ n2 = numpy.random.randint(1,10,16).reshape(4,4)
 #
 # print(numpy.column_stack((n1,n2)))
 # print(numpy.row_stack((n1,n2)))
-print(n1)
-print(numpy.vsplit(n1,4)[0])
+# print(n1)
+# print(numpy.vsplit(n1,4)[0])
 
+# print(numpy.dtype('i8'))
 
+a = numpy.arange(10)**3
+print(a)
+a[:6:2] = -1000
+print(a)
 
 
